@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/source/">
+    <Project Path="source/timewarp-components/timewarp-components.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/timewarp-components-tests/timewarp-components-tests.csproj" />
+  </Folder>
+</Solution>
