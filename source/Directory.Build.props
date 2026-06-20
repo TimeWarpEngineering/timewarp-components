@@ -4,6 +4,8 @@
 
   <!-- Package metadata for NuGet publishing -->
   <PropertyGroup Label="Package Metadata">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>$(MSBuildThisFileDirectory)../artifacts/packages/</PackageOutputPath>
     <Version>1.0.0-beta.1</Version>
     <Authors>TimeWarpEngineering</Authors>
     <PackageProjectUrl>https://github.com/TimeWarpEngineering/timewarp-components</PackageProjectUrl>
