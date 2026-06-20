@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TimeWarp.Components</RootNamespace>
+    <AssemblyName>TimeWarp.Components</AssemblyName>
+    <PackageId>TimeWarp.Components</PackageId>
+    <Description>Style-agnostic Blazor base components (DisplayComponent/ParentComponent, IAttributeComponent/IParentComponent) and CssBuilder. No state dependency.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+{
+  "window.title": "timewarp-components \u00B7 ${rootName}${separator}${activeEditorShort}",
+  "timewarp.blurImagePath": "assets/timewarp-components-avatar.svg",
+  "peacock.remoteColor": "#8D9BED",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#b9c2f4",
+    "activityBar.background": "#b9c2f4",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#e55a6f",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#b9c2f4",
+    "statusBar.background": "#8d9bed",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#6174e6",
+    "statusBarItem.remoteBackground": "#8d9bed",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#8d9bed",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#8d9bed99",
+    "titleBar.inactiveForeground": "#15202b99"
+  }
+}
