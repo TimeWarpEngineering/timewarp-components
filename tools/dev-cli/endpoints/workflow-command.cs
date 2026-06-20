@@ -138,7 +138,7 @@ internal sealed class WorkflowCommand : ICommand<Unit>
       Terminal.WriteLine("===============================================================================");
       Terminal.WriteLine("  Step 5/5: Check Version");
       Terminal.WriteLine("===============================================================================");
-      await new CheckVersionCommand.Handler().Handle(new CheckVersionCommand(), ct);
+      await new CheckVersionCommand.Handler(Terminal).Handle(new CheckVersionCommand(), ct);
 
       if (StopOnFailure("Check Version"))
       {
