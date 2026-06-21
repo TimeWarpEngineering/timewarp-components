@@ -12,5 +12,10 @@
     <RepositoryUrl>https://github.com/TimeWarpEngineering/timewarp-components</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup Label="Package Content">
+    <None Include="$(RepositoryRoot)assets/logo.png" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
