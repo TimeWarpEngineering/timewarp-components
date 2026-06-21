@@ -6,11 +6,16 @@
   <PropertyGroup Label="Package Metadata">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>$(MSBuildThisFileDirectory)../artifacts/packages/</PackageOutputPath>
-    <Version>1.0.0-beta.1</Version>
+    <Version>1.0.0-beta.2</Version>
     <Authors>TimeWarpEngineering</Authors>
     <PackageProjectUrl>https://github.com/TimeWarpEngineering/timewarp-components</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TimeWarpEngineering/timewarp-components</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup Label="Package Content">
+    <None Include="$(RepositoryRoot)assets/logo.png" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
